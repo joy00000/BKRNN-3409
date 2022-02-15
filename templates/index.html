@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>Predict Bankruptcy</h1>
+        <form action="/", method="post">
+            <p>Enter net profit to total asset ratio: </p>
+            <p><input type="number" step="0.01" name="NP"></p>
+            <p>Enter total liability to total asset ratio: </p>
+            <p><input type="number" step="0.01" name="TL"></p>
+            <p>Enter working capital to total asset ratio: </p>
+            <p><input type="number" step="0.01" name="WC"></p>
+            <p><input type="submit" value="Enter"></p>
+        </form>
+        {{result}}
+    </body>
+</html>
